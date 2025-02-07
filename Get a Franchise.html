@@ -27,20 +27,38 @@
     </header>
     <h1 class="get-franchise text-center" >Get a Franchise</h1>
 
-    <div class="form-container">
-        <h1>Get a Franchise</h1>
-        <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="text" placeholder="Phone Number" required>
-            <input type="text" placeholder="Mobile Number" required>
-            <input type="text" placeholder="City" required>
-            <input type="text" placeholder="Province" required>
-            <input type="text" placeholder="Country" required>
-            <input type="text" placeholder="Which brand are you interested in" class="full-width" required>
-            <button type="submit" class="submit-btn full-width">SUBMIT</button>
-        </form>
-    </div>
+    <div  class="form-container mt-2">
+   <form >
+        <div class="form-group">
+            <label for="Name">Name</label> 
+            <input type="text" placeholder="" required> 
+            <label for="Email">Email</label>  
+            <input type="text" placeholder="" required>
+        </div>
+        <div class="form-group">
+            <label for="Phone Number">Phone Number</label>
+            <input type="text" placeholder="" required>
+            <label for="Mobile Number">Mobile Number</label>
+            <input type="text" placeholder="" required>
+            
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" placeholder="" required>
+            <label for="Province">Province</label>
+            <input type="text " placeholder="" required>
+        </div>
+        <div class="form-group">
+            <label for="Country">Country</label>
+            <input type="text" placeholder="" required>
+            <label for="Brands">Brands</label>
+            <select name="Brand" id="brand" >
+                <option value="disabled selected">Which brand are you interested in</option>
+                <option value="Salt'n Pepper Resturant">Salt'n Pepper Resturant</option>
+                <option value="Salt'n Pepper Village">Salt'n Pepper Village</option>
+                <option value="Salt'n Pepper Express">Salt'n Pepper Express</option>
+            </select>
+        </div>
         <button>Submit</button>
      </form>
 
